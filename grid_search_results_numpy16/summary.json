@@ -1,0 +1,68 @@
+{
+  "backend": "numpy",
+  "image_size": 16,
+  "grid_size": 132,
+  "source_dirs": [
+    "grid_outputs_numpy16_30",
+    "grid_outputs_numpy16_highlr_30"
+  ],
+  "hidden_dims": [
+    128,
+    256,
+    512
+  ],
+  "learning_rates": [
+    0.005,
+    0.01,
+    0.02,
+    0.04,
+    0.08,
+    0.12,
+    0.16
+  ],
+  "lr_decays": [
+    0.9,
+    0.94,
+    0.95,
+    0.97
+  ],
+  "weight_decays": [
+    0.0,
+    0.0001,
+    0.0005
+  ],
+  "best_row": {
+    "run_id": "126",
+    "source_dir": "grid_outputs_numpy16_highlr_30",
+    "source_run_id": "102",
+    "hidden_dim": "512",
+    "learning_rate": "0.16",
+    "lr_decay": "0.9",
+    "weight_decay": "0.0005",
+    "best_epoch": "30",
+    "best_val_accuracy": "0.6859259259259259",
+    "final_train_accuracy": "0.7764550264550265",
+    "final_val_accuracy": "0.6859259259259259",
+    "elapsed_seconds": "9.691860914230347"
+  },
+  "best_config": {
+    "data_dir": "EuroSAT_RGB",
+    "output_dir": "grid_outputs_numpy16_highlr_30",
+    "image_size": 16,
+    "hidden_dim": 512,
+    "activation": "relu",
+    "epochs": 30,
+    "batch_size": 256,
+    "learning_rate": 0.16,
+    "lr_decay": 0.9,
+    "weight_decay": 0.0005,
+    "train_ratio": 0.7,
+    "val_ratio": 0.15,
+    "seed": 42,
+    "backend": "numpy"
+  },
+  "best_epoch": 30,
+  "best_val_accuracy": 0.6859259259259259,
+  "test_loss": 1.1439926586386597,
+  "test_accuracy": 0.6881481481481482
+}

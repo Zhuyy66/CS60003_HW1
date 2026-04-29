@@ -1,0 +1,2 @@
+run_id,source_dir,source_run_id,hidden_dim,learning_rate,lr_decay,weight_decay,best_epoch,best_val_accuracy,final_train_accuracy,final_val_accuracy,elapsed_seconds
+126,grid_outputs_numpy16_highlr_30,102,512,0.16,0.9,0.0005,30,0.6859259259259259,0.7764550264550265,0.6859259259259259,9.691860914230347
