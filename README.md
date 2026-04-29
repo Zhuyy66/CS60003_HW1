@@ -4,6 +4,11 @@
 
 最终实验统一采用 `16x16` 输入尺寸。原始 RGB 图像会先被缩放到 `16x16`，再展平成一维向量输入 MLP。这样可以降低纯 NumPy 训练和网格搜索的计算量，也能减少高维展平输入带来的过拟合风险。
 
+提交链接：
+
+- GitHub Repo: https://github.com/Zhuyy66/CS60003_HW1
+- Model Weights: https://drive.google.com/file/d/1GSGULRiR9a9DTfrtshXUQNUXftqh5as7/view?usp=drive_link
+
 ## 主要文件
 
 - `solution.py`：最终模型训练、验证、测试、绘图和简要报告生成脚本。
